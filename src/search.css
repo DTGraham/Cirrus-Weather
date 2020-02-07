@@ -1,0 +1,26 @@
+.search-flex {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.search-col {
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: solid black;
+  outline: none;
+  background: transparent;
+}
+
+.search-col-2 {
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: solid black;
+  outline: none;
+  background: transparent;
+}
