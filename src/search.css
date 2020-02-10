@@ -1,12 +1,17 @@
+html,
+body {
+  height: 100%;
+}
 .search-flex {
   display: flex;
   flex-basis: 100%;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .search-col {
-  width: 20%;
+  margin-right: 10px;
+  width: 30%;
   height: 30px;
   border-radius: 10px;
   text-align: center;
@@ -16,11 +21,39 @@
 }
 
 .search-col-2 {
-  width: 20%;
+  margin-left: 10px;
+  width: 30%;
   height: 30px;
   border-radius: 10px;
   text-align: center;
   border: solid black;
   outline: none;
   background: transparent;
+}
+
+.button-flex {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.sub-button {
+  margin-top: 10px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: solid black;
+  outline: none;
+  background: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .search-flex {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    margin-top: 50%;
+  }
 }

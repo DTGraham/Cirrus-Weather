@@ -19,7 +19,7 @@ class Nav extends React.Component {
                 class="nav-column-left "
                 href="https://weather.gc.ca/city/pages/on-143_metric_e.html"
               >
-                Weather Site
+                Cirrus Weather
               </a>
             </h2>
           </div>
